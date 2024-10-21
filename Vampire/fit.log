@@ -1,0 +1,18 @@
+
+
+*******************************************************************************
+Mon Oct 21 15:55:58 2024
+
+
+FIT:    data read from "output" u 1:2
+        format = x:z
+        #datapoints = 39
+        residuals are weighted equally (unit weight)
+
+function used for fitting: m(x)
+	m(x)=x<Tc? (1-(x/Tc))**beta:0.0
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Tc            beta         
+   0 1.7746200232e+01   0.00e+00  1.28e-02    7.000000e+01   4.000000e-01
+BREAK: Singular matrix in Invert_RtR

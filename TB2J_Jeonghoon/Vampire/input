@@ -11,9 +11,9 @@ material:unit-cell-file = "vampire.UCF"
 #------------------------------------------ 
 # System Dimensions: 
 #------------------------------------------ 
-dimensions:unit-cell-size-x = 3.701302384671993
-dimensions:unit-cell-size-y = 3.7013023846720836
-dimensions:unit-cell-size-z = 14.75669484123577
+dimensions:unit-cell-size-x = 3.701302384671993 !A
+dimensions:unit-cell-size-y = 3.7013023846720836 !A
+dimensions:unit-cell-size-z = 14.75669484123577 !A
 
 dimensions:system-size-x = 15.0 !nm 
 dimensions:system-size-y = 15.0 !nm 

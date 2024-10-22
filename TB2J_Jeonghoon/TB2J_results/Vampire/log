@@ -1,0 +1,17 @@
+23-10-2024 [01:43:56] Logfile opened
+23-10-2024 [01:43:56] Executable : vampire-serial
+23-10-2024 [01:43:56] Host name  : node200:
+23-10-2024 [01:43:56] Directory  : /home/jhhong/example/CrTe/CrTe_project/Layer/CrTe2/MAE/18.0/OOP/wannier/result/wannier/result2/TB2J_results/Vampire
+23-10-2024 [01:43:56] Process ID : 100857
+23-10-2024 [01:43:56] Version    : 5.0.1
+23-10-2024 [01:43:56] Githash    : c0cb858d7dcdcdfc6474938324e363599e728b30
+23-10-2024 [01:43:56] Opening main input file "input".
+23-10-2024 [01:43:56] Parsing system parameters from main input file.
+23-10-2024 [01:43:56] Opening material file "vampire.mat".
+23-10-2024 [01:43:56] Parsing material file for parameters.
+23-10-2024 [01:43:56] Reading in unit cell data from disk...
+23-10-2024 [01:43:56] Reading data completed. Processing unit cell data...
+23-10-2024 [01:43:56] 	Processing data for 1 unit cell atoms...
+23-10-2024 [01:43:56] 
+Error: Unkown exchange type "2" in unit cell file. Exiting!
+23-10-2024 [01:43:56] Fatal error: Aborting program.

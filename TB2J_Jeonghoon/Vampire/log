@@ -1,0 +1,64 @@
+22-10-2024 [16:20:57] Logfile opened
+22-10-2024 [16:20:57] Executable : vampire-serial
+22-10-2024 [16:20:57] Host name  : Cygnus:
+22-10-2024 [16:20:57] Directory  : /home/baradwaj/CrTe_x_vampire/TB2J_Jeonghoon/Vampire
+22-10-2024 [16:20:57] Process ID : 1429
+22-10-2024 [16:20:57] Version    : 7.0.0
+22-10-2024 [16:20:57] Githash    : e38fe604be3d1f5abbbe34a5e2f501b9e7510a47
+22-10-2024 [16:20:57] Opening main input file "input".
+22-10-2024 [16:20:57]    Loading text file input on root process
+22-10-2024 [16:20:57]    File successfully loaded on root process with 1263 characters and size 0.001263 [ 146.656 ] MB/s
+22-10-2024 [16:20:57] Parsing system parameters from main input file.
+22-10-2024 [16:20:57] Opening material file "vampire.mat".
+22-10-2024 [16:20:57]    Loading text file vampire.mat on root process
+22-10-2024 [16:20:57]    File successfully loaded on root process with 514 characters and size 0.000514 [ 110.395 ] MB/s
+22-10-2024 [16:20:57] Parsing material file for parameters.
+22-10-2024 [16:20:57] Setting periodic boundary conditions in x,y directions
+22-10-2024 [16:20:57] Reading in unit cell data from disk...
+22-10-2024 [16:20:57]    Loading text file vampire.UCF on root process
+22-10-2024 [16:20:57]    File successfully loaded on root process with 9252 characters and size 0.009252 [ 732.31 ] MB/s
+22-10-2024 [16:20:57] Reading data completed. Processing unit cell data...
+22-10-2024 [16:20:57] 	Processing data for 1 unit cell atoms...
+22-10-2024 [16:20:57] 	Processing unit cell atoms completed
+22-10-2024 [16:20:57] 	Processing data from 96 interactions...
+22-10-2024 [16:20:57] 	Processing unit cell interactions completed
+22-10-2024 [16:20:57] 	Verifying unit cell exchange interactions...
+22-10-2024 [16:20:57] Verifying unit cell exchange interactions completed
+22-10-2024 [16:20:57] 	Number of atoms read-in: 1
+22-10-2024 [16:20:57] 	Number of bilinear interactions read-in: 96
+22-10-2024 [16:20:57] 	Number of biquadratic interactions read-in: 0
+22-10-2024 [16:20:57] 	Exchange type: 
+22-10-2024 [16:20:57] 	Calculated interaction range: 6 Unit Cells
+22-10-2024 [16:20:57] Calculating alloy properties of system
+22-10-2024 [16:20:57] Determining atomic composition:
+22-10-2024 [16:20:57] Material 1 Cr makes up 100 % of all atoms ( 4410 atoms )
+22-10-2024 [16:20:57] Memory required for neighbourlist calculation:0.03528 MB
+22-10-2024 [16:20:57] Allocating memory for supercell array in neighbourlist calculation
+22-10-2024 [16:20:57] 	Allocating memory done
+22-10-2024 [16:20:57] Populating supercell array for neighbourlist calculation...
+22-10-2024 [16:20:57] 	Populating supercell array completed
+22-10-2024 [16:20:57] Memory required for neighbour list:3.38688 MB
+22-10-2024 [16:20:57] Generating neighbour list...
+22-10-2024 [16:20:57] 	Neighbour list calculation complete
+22-10-2024 [16:20:57] Deallocating supercell array for neighbour list calculation
+22-10-2024 [16:20:57] 	Supercell array deallocated
+22-10-2024 [16:20:57] Copying system data to optimised data structures.
+22-10-2024 [16:20:57] Number of atoms generated on rank 0: 4410
+22-10-2024 [16:20:57] Memory required for copying to performance array on rank 0: 0.67032 MB RAM
+22-10-2024 [16:20:57] Identifying surface atoms using global threshold value of 0
+22-10-2024 [16:20:57] 0 surface atoms found.
+22-10-2024 [16:20:57] Memory required for creation of 1D neighbour list on rank 0: 0.07056 MB RAM
+22-10-2024 [16:20:57] Initialising data structures for exchange calculation.
+22-10-2024 [16:20:57] Unrolled exchange template requires 0.006912MB RAM
+22-10-2024 [16:20:57] Number of atoms generated: 4410
+22-10-2024 [16:20:57] Initializing vampire modules
+22-10-2024 [16:20:57] Macrocell size = 10,10,10 Angstroms
+22-10-2024 [16:20:57] Macrocells in x,y,z: 8	8	16
+22-10-2024 [16:20:57] Total number of macrocells: 1024
+22-10-2024 [16:20:57] Memory required for macrocell arrays: 0.08192 MB
+22-10-2024 [16:20:57] Number of local macrocells on rank 0: 640
+22-10-2024 [16:20:57] Initialising data structures for anisotropy calculation for 100 materials
+22-10-2024 [16:20:57] Initialising statistics module
+22-10-2024 [16:20:57] Starting Simulation with Program Curie-Temperature...
+22-10-2024 [16:21:15] Simulation run time [s]: 18.1566
+22-10-2024 [16:21:15] Simulation ended gracefully.

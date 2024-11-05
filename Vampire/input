@@ -1,7 +1,7 @@
 #------------------------------------------ 
 # Creation attributes: 
 #------------------------------------------ 
-#create:full
+create:full
 create:periodic-boundaries-x 
 create:periodic-boundaries-y 
 #create:periodic-boundaries-z 
@@ -11,17 +11,17 @@ material:unit-cell-file = "vampire.UCF"
 #------------------------------------------ 
 # System Dimensions: 
 #------------------------------------------ 
-dimensions:system-size-x = 15.0 !nm 
-dimensions:system-size-y = 15.0 !nm 
-dimensions:system-size-z = 15.0 !nm 
+dimensions:system-size-x = 15 !nm 
+dimensions:system-size-y = 15 !nm 
+dimensions:system-size-z = 15 !nm 
 #------------------------------------------ 
 # Simulation attributes: 
 #------------------------------------------ 
-sim:minimum-temperature=0 
-sim:maximum-temperature=100
-sim:temperature-increment=5
-sim:preconditioning-steps=1000
 sim:equilibration-time-steps=5000
+sim:maximum-temperature = 100
+sim:minimum-temperature = 0.0
+sim:temperature-increment= 5
+#sim:applied-field-strength= 6 !T
 #------------------------------------------ 
 # Program and integrator details 
 #------------------------------------------ 
@@ -30,9 +30,10 @@ sim:integrator=monte-carlo
 #------------------------------------------
 # Data output 
 #------------------------------------------ 
-#output:real-time
+output:column-headers
+output:real-time
 output:temperature
-#output:material-magnetisation 
-output:magnetisation-length 
+output:material-magnetisation
+config:atoms
 screen:temperature
-screen:magnetisation-length
+screen:material-magnetisation

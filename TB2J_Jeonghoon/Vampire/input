@@ -18,8 +18,8 @@ dimensions:system-size-z = 15.0 !nm
 # Simulation attributes: 
 #------------------------------------------ 
 sim:minimum-temperature=0 
-sim:maximum-temperature=50
-sim:temperature-increment=50
+sim:maximum-temperature=200
+sim:temperature-increment=20
 sim:time-steps-increment=1 
 sim:equilibration-time-steps=2500 
 sim:loop-time-steps=3000 

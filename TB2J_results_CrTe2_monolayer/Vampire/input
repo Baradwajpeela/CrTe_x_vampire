@@ -11,19 +11,18 @@ material:unit-cell-file = "vampire.UCF"
 #------------------------------------------ 
 # System Dimensions: 
 #------------------------------------------ 
-dimensions:system-size-x = 15.0 !nm 
-dimensions:system-size-y = 15.0 !nm 
+dimensions:system-size-x = 60.0 !nm 
+dimensions:system-size-y = 60.0 !nm 
 dimensions:system-size-z = 2 !nm 
 #------------------------------------------ 
 # Simulation attributes: 
 #------------------------------------------ 
 #sim:temperature=300 
 sim:minimum-temperature=0 
-sim:maximum-temperature=90
-sim:temperature-increment=1
-sim:time-steps-increment=1 
-sim:equilibration-time-steps=5000 
-sim:loop-time-steps=5000 
+sim:maximum-temperature=150
+sim:temperature-increment=0.5
+sim:equilibration-time-steps=1500 
+sim:loop-time-steps=1000 
 #------------------------------------------ 
 # Program and integrator details 
 #------------------------------------------ 

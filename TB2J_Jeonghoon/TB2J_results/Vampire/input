@@ -11,13 +11,9 @@ material:unit-cell-file = "vampire.UCF"
 #------------------------------------------ 
 # System Dimensions: 
 #------------------------------------------ 
-dimensions:unit-cell-size-x = 3.81
-dimensions:unit-cell-size-y = 3.8099999996373852
-dimensions:unit-cell-size-z = 15.43639931140423
-
-dimensions:system-size-x = 15.0 !nm 
-dimensions:system-size-y = 15.0 !nm 
-dimensions:system-size-z = 15.0 !nm 
+dimensions:system-size-x = 50 !nm 
+dimensions:system-size-y = 50 !nm 
+dimensions:system-size-z = 2.0 !nm 
 #------------------------------------------ 
 # Simulation attributes: 
 #------------------------------------------ 
@@ -32,11 +28,12 @@ sim:loop-time-steps=3000
 # Program and integrator details 
 #------------------------------------------ 
 sim:program=curie-temperature
-sim:integrator=llg-heun
-#------------------------------------------
+sim:integrator=monte-carlo
+#-----------------------------------------
 # Data output 
 #------------------------------------------ 
 #output:real-time
 output:temperature
-output:material-magnetisation 
+screen:temperature
+screen:material-magnetisation 
 #output:magnetisation-length 

@@ -19,8 +19,8 @@ dimensions:system-size-z = 5.0 !nm
 #------------------------------------------ 
 #sim:temperature=300 
 sim:minimum-temperature=0 
-sim:maximum-temperature=320
-sim:temperature-increment=10 
+sim:maximum-temperature=260
+sim:temperature-increment=5 
 sim:equilibration-time-steps=2500 
 sim:loop-time-steps=3000 
 #------------------------------------------ 

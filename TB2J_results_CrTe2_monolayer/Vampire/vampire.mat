@@ -5,9 +5,9 @@ material:num-materials = 1
 material[1]:material-name=Cr
 material[1]:damping-constant=1.0
 material[1]:atomic-spin-moment=3.5384331727799503 !muB
-material[1]:uniaxial-anisotropy-constant= 0.5 !meV
+material[1]:uniaxial-anisotropy-constant= 5.56 !meV
 material[1]:material-element=Cr
-material[1]:exchange-matrix[1]=3.2302 !meV
+material[1]:exchange-matrix[1]=6.4604 !meV
 material[1]:initial-spin-direction = 5.886588163980457e-07,-7.828822404788181e-06,0.9999999999691815
 material[1]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
 #---------------------------------------------------

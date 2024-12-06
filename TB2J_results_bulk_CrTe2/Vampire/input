@@ -27,7 +27,7 @@ sim:loop-time-steps=3000
 # Program and integrator details 
 #------------------------------------------ 
 sim:program=curie-temperature
-sim:integrator=llg-heun
+sim:integrator=monte-carlo
 #------------------------------------------
 # Data output 
 #------------------------------------------ 

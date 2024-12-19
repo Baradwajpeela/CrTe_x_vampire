@@ -1,95 +1,94 @@
-04-12-2024 [16:53:59] Logfile opened
-04-12-2024 [16:53:59] Executable : vampire-parallel
-04-12-2024 [16:53:59] Host name  : GRBE200AHCXJDZ3:
-04-12-2024 [16:53:59] Directory  : /home/barad/CrTe_x_vampire/TB2J_Jeonghoon/Bulk/Cr3Te4/TB2J_results/Vampire
-04-12-2024 [16:53:59] Process ID : 914
-04-12-2024 [16:53:59] Version    : 7.0.0
-04-12-2024 [16:53:59] Githash    : e017e798022a7c964d4c6aafc8ff97a7f63fd6bd
-04-12-2024 [16:53:59] Opening main input file "input".
-04-12-2024 [16:53:59]    Loading text file input on root process
-04-12-2024 [16:53:59]    File successfully loaded on root process with 1447 characters and size 0.001447 [ 107.225 ] MB/s
-04-12-2024 [16:53:59]    Resizing array on all processes
-04-12-2024 [16:53:59]    Broadcasting file from root process
-04-12-2024 [16:53:59] Parsing system parameters from main input file.
-04-12-2024 [16:53:59] Opening material file "vampire.mat".
-04-12-2024 [16:53:59]    Loading text file vampire.mat on root process
-04-12-2024 [16:53:59]    File successfully loaded on root process with 1634 characters and size 0.001634 [ 7.1945 ] MB/s
-04-12-2024 [16:53:59]    Resizing array on all processes
-04-12-2024 [16:53:59]    Broadcasting file from root process
-04-12-2024 [16:53:59] Parsing material file for parameters.
-04-12-2024 [16:53:59] Setting periodic boundary conditions in x,y,z directions
-04-12-2024 [16:53:59] Reading in unit cell data from disk...
-04-12-2024 [16:53:59]    Loading text file vampire.ucf on root process
-04-12-2024 [16:53:59]    File successfully loaded on root process with 1478 characters and size 0.001478 [ 133.201 ] MB/s
-04-12-2024 [16:53:59]    Resizing array on all processes
-04-12-2024 [16:53:59]    Broadcasting file from root process
-04-12-2024 [16:53:59] Reading data completed. Processing unit cell data...
-04-12-2024 [16:53:59] 	Processing data for 3 unit cell atoms...
-04-12-2024 [16:53:59] 	Processing unit cell atoms completed
-04-12-2024 [16:53:59] 	Processing data from 50 interactions...
-04-12-2024 [16:53:59] 	Processing unit cell interactions completed
-04-12-2024 [16:53:59] 	Verifying unit cell exchange interactions...
-04-12-2024 [16:53:59] Verifying unit cell exchange interactions completed
-04-12-2024 [16:53:59] 	Number of atoms read-in: 3
-04-12-2024 [16:53:59] 	Number of bilinear interactions read-in: 50
-04-12-2024 [16:53:59] 	Number of biquadratic interactions read-in: 0
-04-12-2024 [16:53:59] 	Exchange type: 
-04-12-2024 [16:53:59] 	Calculated interaction range: 2 Unit Cells
-04-12-2024 [16:53:59] System decomposed into 2 x 5 x 1 processors for parallel execution
-04-12-2024 [16:53:59] Calculating alloy properties of system
-04-12-2024 [16:53:59] Determining atomic composition:
-04-12-2024 [16:53:59] Material 1 Cr1 makes up 100 % of all atoms ( 4704 atoms )
-04-12-2024 [16:53:59] Material 2 Cr2 makes up 0 % of all atoms ( 0 atoms )
-04-12-2024 [16:53:59] Material 3 Cr3 makes up 0 % of all atoms ( 0 atoms )
-04-12-2024 [16:53:59] Copying halo atoms to other processors...
-04-12-2024 [16:53:59]    Determining CPU ranges in x,y,z
-04-12-2024 [16:53:59]      Completed. Time taken: 9.9657e-05 s
-04-12-2024 [16:53:59]    Determining atoms needed by remote CPUs
-04-12-2024 [16:53:59]      Completed. Time taken: 0.00388571 s
-04-12-2024 [16:53:59]    Sharing number of atoms to be sent/received from each CPU
-04-12-2024 [16:53:59]      Completed. Time taken: 0.00121952 s
-04-12-2024 [16:53:59]    Sending boundary atom data to all relevant CPUs
-04-12-2024 [16:53:59]      Completed. Time taken: 0.000361155 s
-04-12-2024 [16:53:59] 	done! Total time taken: 0.00608738
-04-12-2024 [16:53:59] Memory required for neighbourlist calculation (each cpu):0 MB
-04-12-2024 [16:53:59] Memory required for neighbourlist calculation (all cpus):0 MB
-04-12-2024 [16:53:59] Allocating memory for supercell array in neighbourlist calculation
-04-12-2024 [16:53:59] 	Allocating memory done
-04-12-2024 [16:53:59] Populating supercell array for neighbourlist calculation...
-04-12-2024 [16:53:59] 	Populating supercell array completed
-04-12-2024 [16:53:59] Memory required for neighbour list (each cpu):0 MB
-04-12-2024 [16:53:59] Memory required for neighbour list (all cpus):0 MB
-04-12-2024 [16:53:59] Generating neighbour list...
-04-12-2024 [16:53:59] 	Neighbour list calculation complete
-04-12-2024 [16:53:59] Deallocating supercell array for neighbour list calculation
-04-12-2024 [16:53:59] 	Supercell array deallocated
-04-12-2024 [16:53:59] Number of core  atoms: 0
-04-12-2024 [16:53:59] Number of local atoms: 504
-04-12-2024 [16:53:59] Number of total atoms: 1422
-04-12-2024 [16:53:59] Initialising MPI communications...
-04-12-2024 [16:53:59] 	done! Total time taken: 7.6553e-05
-04-12-2024 [16:53:59] Copying system data to optimised data structures.
-04-12-2024 [16:53:59] Number of atoms generated on rank 0: 504
-04-12-2024 [16:53:59] Memory required for copying to performance array on rank 0: 0.216144 MB RAM
-04-12-2024 [16:53:59] Identifying surface atoms using global threshold value of 0
-04-12-2024 [16:53:59] 0 surface atoms found.
-04-12-2024 [16:53:59] Memory required for creation of 1D neighbour list on rank 0: 0.022752 MB RAM
-04-12-2024 [16:53:59] Initialising data structures for exchange calculation.
-04-12-2024 [16:53:59] Unrolled exchange template requires 0.0004MB RAM
-04-12-2024 [16:53:59] Total number of atoms (all CPUs): 4704
-04-12-2024 [16:53:59] Initializing vampire modules
-04-12-2024 [16:53:59] Macrocell size = 10,10,10 Angstroms
-04-12-2024 [16:53:59] Macrocells in x,y,z: 11	11	6
-04-12-2024 [16:53:59] Total number of macrocells: 726
-04-12-2024 [16:53:59] Memory required for macrocell arrays: 0.05808 MB
-04-12-2024 [16:53:59] Number of local macrocells on rank 0: 90
-04-12-2024 [16:53:59] Initialising data structures for anisotropy calculation for 100 materials
-04-12-2024 [16:53:59] Initialising statistics module
-04-12-2024 [16:53:59] Time for initialisation: 0.0196074
-04-12-2024 [16:53:59] Starting Simulation with Program Curie-Temperature...
-04-12-2024 [16:55:08] Simulation run time [s]: 69.1376
-04-12-2024 [16:55:08] Monte Carlo statistics:
-04-12-2024 [16:55:08] 	Total moves: 1.16659e+09
-04-12-2024 [16:55:08] 	52.4797% Accepted
-04-12-2024 [16:55:08] 	47.5203% Rejected
-04-12-2024 [16:55:08] Simulation ended gracefully.
+18-12-2024 [15:49:17] Logfile opened
+18-12-2024 [15:49:17] Executable : vampire-parallel
+18-12-2024 [15:49:17] Host name  : GRBE200AHCXJDZ3:
+18-12-2024 [15:49:17] Directory  : /home/barad/CrTe_x_vampire/TB2J_Jeonghoon/Bulk/Cr3Te4/TB2J_results/Vampire
+18-12-2024 [15:49:17] Process ID : 6861
+18-12-2024 [15:49:17] Version    : 7.0.0
+18-12-2024 [15:49:17] Githash    : e017e798022a7c964d4c6aafc8ff97a7f63fd6bd
+18-12-2024 [15:49:17] Opening main input file "input".
+18-12-2024 [15:49:17]    Loading text file input on root process
+18-12-2024 [15:49:17]    File successfully loaded on root process with 1448 characters and size 0.001448 [ 110.915 ] MB/s
+18-12-2024 [15:49:17]    Resizing array on all processes
+18-12-2024 [15:49:17]    Broadcasting file from root process
+18-12-2024 [15:49:17] Parsing system parameters from main input file.
+18-12-2024 [15:49:17] Opening material file "vampire.mat".
+18-12-2024 [15:49:17]    Loading text file vampire.mat on root process
+18-12-2024 [15:49:17]    File successfully loaded on root process with 1629 characters and size 0.001629 [ 116.499 ] MB/s
+18-12-2024 [15:49:17]    Resizing array on all processes
+18-12-2024 [15:49:17]    Broadcasting file from root process
+18-12-2024 [15:49:17] Parsing material file for parameters.
+18-12-2024 [15:49:17] Setting periodic boundary conditions in x,y,z directions
+18-12-2024 [15:49:17] Reading in unit cell data from disk...
+18-12-2024 [15:49:17]    Loading text file vampire.ucf on root process
+18-12-2024 [15:49:17]    File successfully loaded on root process with 10158 characters and size 0.010158 [ 333.618 ] MB/s
+18-12-2024 [15:49:17]    Resizing array on all processes
+18-12-2024 [15:49:17]    Broadcasting file from root process
+18-12-2024 [15:49:17] Reading data completed. Processing unit cell data...
+18-12-2024 [15:49:17] 	Processing data for 3 unit cell atoms...
+18-12-2024 [15:49:17] 	Processing unit cell atoms completed
+18-12-2024 [15:49:17] 	Processing data from 356 interactions...
+18-12-2024 [15:49:17] 	Processing unit cell interactions completed
+18-12-2024 [15:49:17] 	Verifying unit cell exchange interactions...
+18-12-2024 [15:49:17] Verifying unit cell exchange interactions completed
+18-12-2024 [15:49:17] 	Number of atoms read-in: 3
+18-12-2024 [15:49:17] 	Number of bilinear interactions read-in: 356
+18-12-2024 [15:49:17] 	Number of biquadratic interactions read-in: 0
+18-12-2024 [15:49:17] 	Exchange type: 
+18-12-2024 [15:49:17] 	Calculated interaction range: 3 Unit Cells
+18-12-2024 [15:49:17] System decomposed into 1 x 2 x 5 processors for parallel execution
+18-12-2024 [15:49:17] Calculating alloy properties of system
+18-12-2024 [15:49:17] Determining atomic composition:
+18-12-2024 [15:49:17] Material 1 Cr1 makes up 100 % of all atoms ( 39690 atoms )
+18-12-2024 [15:49:17] Material 2 Cr2 makes up 0 % of all atoms ( 0 atoms )
+18-12-2024 [15:49:17] Copying halo atoms to other processors...
+18-12-2024 [15:49:17]    Determining CPU ranges in x,y,z
+18-12-2024 [15:49:17]      Completed. Time taken: 4.0223e-05 s
+18-12-2024 [15:49:17]    Determining atoms needed by remote CPUs
+18-12-2024 [15:49:17]      Completed. Time taken: 0.0283158 s
+18-12-2024 [15:49:17]    Sharing number of atoms to be sent/received from each CPU
+18-12-2024 [15:49:17]      Completed. Time taken: 0.00916141 s
+18-12-2024 [15:49:17]    Sending boundary atom data to all relevant CPUs
+18-12-2024 [15:49:17]      Completed. Time taken: 0.00100719 s
+18-12-2024 [15:49:17] 	done! Total time taken: 0.0405129
+18-12-2024 [15:49:17] Memory required for neighbourlist calculation (each cpu):0 MB
+18-12-2024 [15:49:17] Memory required for neighbourlist calculation (all cpus):0 MB
+18-12-2024 [15:49:17] Allocating memory for supercell array in neighbourlist calculation
+18-12-2024 [15:49:17] 	Allocating memory done
+18-12-2024 [15:49:17] Populating supercell array for neighbourlist calculation...
+18-12-2024 [15:49:17] 	Populating supercell array completed
+18-12-2024 [15:49:17] Memory required for neighbour list (each cpu):0 MB
+18-12-2024 [15:49:17] Memory required for neighbour list (all cpus):0 MB
+18-12-2024 [15:49:17] Generating neighbour list...
+18-12-2024 [15:49:17] 	Neighbour list calculation complete
+18-12-2024 [15:49:17] Deallocating supercell array for neighbour list calculation
+18-12-2024 [15:49:17] 	Supercell array deallocated
+18-12-2024 [15:49:17] Number of core  atoms: 600
+18-12-2024 [15:49:17] Number of local atoms: 4158
+18-12-2024 [15:49:17] Number of total atoms: 11442
+18-12-2024 [15:49:17] Initialising MPI communications...
+18-12-2024 [15:49:17] 	done! Total time taken: 0.00118595
+18-12-2024 [15:49:17] Copying system data to optimised data structures.
+18-12-2024 [15:49:17] Number of atoms generated on rank 0: 4158
+18-12-2024 [15:49:17] Memory required for copying to performance array on rank 0: 1.73918 MB RAM
+18-12-2024 [15:49:17] Identifying surface atoms using global threshold value of 0
+18-12-2024 [15:49:17] 0 surface atoms found.
+18-12-2024 [15:49:17] Memory required for creation of 1D neighbour list on rank 0: 0.183072 MB RAM
+18-12-2024 [15:49:17] Initialising data structures for exchange calculation.
+18-12-2024 [15:49:17] Unrolled exchange template requires 0.002848MB RAM
+18-12-2024 [15:49:17] Total number of atoms (all CPUs): 39690
+18-12-2024 [15:49:17] Initializing vampire modules
+18-12-2024 [15:49:17] Macrocell size = 10,10,10 Angstroms
+18-12-2024 [15:49:17] Macrocells in x,y,z: 16	16	21
+18-12-2024 [15:49:17] Total number of macrocells: 5376
+18-12-2024 [15:49:17] Memory required for macrocell arrays: 0.43008 MB
+18-12-2024 [15:49:17] Number of local macrocells on rank 0: 480
+18-12-2024 [15:49:17] Initialising data structures for anisotropy calculation for 100 materials
+18-12-2024 [15:49:17] Initialising statistics module
+18-12-2024 [15:49:17] Time for initialisation: 0.513212
+18-12-2024 [15:49:17] Starting Simulation with Program Curie-Temperature...
+18-12-2024 [16:05:23] Simulation run time [s]: 965.058
+18-12-2024 [16:05:23] Monte Carlo statistics:
+18-12-2024 [16:05:23] 	Total moves: 8.25552e+09
+18-12-2024 [16:05:23] 	52.7756% Accepted
+18-12-2024 [16:05:23] 	47.2244% Rejected
+18-12-2024 [16:05:23] Simulation ended gracefully.

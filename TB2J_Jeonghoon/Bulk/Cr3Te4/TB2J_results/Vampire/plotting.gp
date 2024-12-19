@@ -1,4 +1,5 @@
-set terminal wxt
+set terminal pdfcairo enhanced font "Arial,12" linewidth 1.5 size 5,3
+set output "Tc_Cr3Te4_bulk_70nm.pdf"
 set grid 
 set mouse
 set xlabel "Temperature"

@@ -41,3 +41,4 @@ screen:magnetisation-length
 output:temperature
 output:material-magnetisation 
 #output:magnetisation-length 
+config:atoms

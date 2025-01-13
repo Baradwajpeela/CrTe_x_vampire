@@ -11,13 +11,13 @@ material:unit-cell-file = "vampire.UCF"
 #------------------------------------------ 
 # System Dimensions: 
 #------------------------------------------ 
-dimensions:unit-cell-size-x = 7.900000031954487
-dimensions:unit-cell-size-y = 7.900000031954487
-dimensions:unit-cell-size-z = 5.996
+#dimensions:unit-cell-size-x = 7.900000031954487
+#dimensions:unit-cell-size-y = 7.900000031954487
+#dimensions:unit-cell-size-z = 5.996
 
-dimensions:system-size-x = 15.0 !nm 
-dimensions:system-size-y = 15.0 !nm 
-dimensions:system-size-z = 15.0 !nm 
+dimensions:system-size-x = 5.0 !nm 
+dimensions:system-size-y = 5.0 !nm 
+dimensions:system-size-z = 5.0 !nm 
 #------------------------------------------ 
 # Simulation attributes: 
 #------------------------------------------ 
@@ -42,3 +42,4 @@ screen:magnetisation-length
 output:temperature
 output:material-magnetisation
 #output:magnetisation-length 
+config:atoms

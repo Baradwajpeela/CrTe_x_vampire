@@ -1,10 +1,10 @@
 #----------------------------------------------------------------------------------------------------------------------------------------------------------
 # Output file for vampire simulation
-#   time       : 2025-01-08 05:07:48     process id : 91073
-#   hostname   : node200
-#   path       : /home/jhhong/example/CrTe/CrTe_project/Bulk/CrTe2/MAE/U_4/18.0/IP/wannier/result/TB2J_results/Vampire
-#   version    : 5.0.1
-#   githash    : c0cb858d7dcdcdfc6474938324e363599e728b30
+#   time       : 2025-01-09 12:11:27     process id : 13171
+#   hostname   : GRBE200AHCXJDZ3
+#   path       : /home/barad/CrTe_x_vampire/TB2J_Jeonghoon/updated_TB2J/Bulk/CrTe2/U_4/TB2J_results/Vampire
+#   version    : 7.0.0
+#   githash    : e017e798022a7c964d4c6aafc8ff97a7f63fd6bd
 #----------------------------------------------------------------------------------------------------------------------------------------------------------
-0	1.15292e-05	1.2276e-05	1	1	
-25	0.512875	-0.369428	-0.774908	0.00406856	
+0          	0.963851   	0.26644    	0.000286986	0.0609461  	
+25         	-0.919588  	-0.379243  	-0.10263   	0.00639929 	

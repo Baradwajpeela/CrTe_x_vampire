@@ -1,0 +1,63 @@
+08-01-2025 [12:11:35] Logfile opened
+08-01-2025 [12:11:35] Executable : vampire-serial
+08-01-2025 [12:11:35] Host name  : node200:
+08-01-2025 [12:11:35] Directory  : /home/jhhong/example/CrTe/CrTe_project/Bulk/Cr5Te8/MAE/U_4/78.0/OOP/wannier/result/wannier/result2/TB2J_results/Vampire
+08-01-2025 [12:11:35] Process ID : 179467
+08-01-2025 [12:11:35] Version    : 5.0.1
+08-01-2025 [12:11:35] Githash    : c0cb858d7dcdcdfc6474938324e363599e728b30
+08-01-2025 [12:11:35] Opening main input file "input".
+08-01-2025 [12:11:35] Parsing system parameters from main input file.
+08-01-2025 [12:11:35] Opening material file "vampire.mat".
+08-01-2025 [12:11:35] Parsing material file for parameters.
+08-01-2025 [12:11:35] Reading in unit cell data from disk...
+08-01-2025 [12:11:35] Reading data completed. Processing unit cell data...
+08-01-2025 [12:11:35] 	Processing data for 5 unit cell atoms...
+08-01-2025 [12:11:35] 	Processing unit cell atoms completed
+08-01-2025 [12:11:35] 	Processing data from 86 unit cell interactions...
+08-01-2025 [12:11:35] 	Processing unit cell interactions completed
+08-01-2025 [12:11:35] 	Verifying unit cell exchange interactions...
+08-01-2025 [12:11:35] Verifying unit cell exchange interactions completed
+08-01-2025 [12:11:35] 	Number of atoms read-in: 5
+08-01-2025 [12:11:35] 	Number of interactions read-in: 86
+08-01-2025 [12:11:35] 	Exchange type: tensorial
+08-01-2025 [12:11:35] 	Calculated interaction range: 1 Unit Cells
+08-01-2025 [12:11:35] Calculating alloy properties of system
+08-01-2025 [12:11:35] Determining atomic composition
+08-01-2025 [12:11:35] Material 1 Cr makes up 20% of all atoms.
+08-01-2025 [12:11:35] Material 2 Cr makes up 20% of all atoms.
+08-01-2025 [12:11:35] Material 3 Cr makes up 20% of all atoms.
+08-01-2025 [12:11:35] Material 4 Cr makes up 20% of all atoms.
+08-01-2025 [12:11:35] Material 5 Cr makes up 20% of all atoms.
+08-01-2025 [12:11:35] Memory required for neighbourlist calculation:0.37544 MB
+08-01-2025 [12:11:35] Allocating memory for supercell array in neighbourlist calculation...
+08-01-2025 [12:11:35] 	Done
+08-01-2025 [12:11:35] Populating supercell array for neighbourlist calculation...
+08-01-2025 [12:11:35] 	Done
+08-01-2025 [12:11:35] Memory required for neighbour list:6.45757 MB
+08-01-2025 [12:11:35] Generating neighbour list...
+08-01-2025 [12:11:35] 	Done
+08-01-2025 [12:11:35] Deallocating supercell array for neighbour list calculation
+08-01-2025 [12:11:35] 	Done
+08-01-2025 [12:11:35] Copying system data to optimised data structures.
+08-01-2025 [12:11:35] Number of atoms generated on rank 0: 46930
+08-01-2025 [12:11:35] Memory required for copying to performance array on rank 0: 7.13336 MB RAM
+08-01-2025 [12:11:35] Identifying surface atoms using global threshold value of 0
+08-01-2025 [12:11:35] 0 surface atoms found.
+08-01-2025 [12:11:35] Memory required for creation of 1D neighbour list on rank 0: 0.75088 MB RAM
+08-01-2025 [12:11:35] Initialising data structures for exchange calculation.
+08-01-2025 [12:11:35] Unrolled exchange template requires 0.006192MB RAM
+08-01-2025 [12:11:35] Macrocell size = 10 Angstroms
+08-01-2025 [12:11:35] Macrocells in x,y,z: 16	16	16
+08-01-2025 [12:11:35] Total number of macrocells: 4096
+08-01-2025 [12:11:35] Memory required for macrocell arrays: 0.32768 MB
+08-01-2025 [12:11:35] Number of local macrocells on rank 0: 3600
+08-01-2025 [12:11:35] Number of atoms generated: 46930
+08-01-2025 [12:11:35] Initialising data structures for anisotropy calculation.
+08-01-2025 [12:11:35] Initialising statistics module
+08-01-2025 [12:11:35] Starting Simulation with Program Curie-Temperature...
+08-01-2025 [12:41:13] Simulation run time [s]: 1777.42
+08-01-2025 [12:41:13] Monte Carlo statistics:
+08-01-2025 [12:41:13] 	Total moves: 4.38796e+09
+08-01-2025 [12:41:13] 	42.4904% Accepted
+08-01-2025 [12:41:13] 	57.5096% Rejected
+08-01-2025 [12:41:13] Simulation ended gracefully.

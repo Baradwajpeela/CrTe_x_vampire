@@ -7,27 +7,27 @@ create:periodic-boundaries-y
 create:periodic-boundaries-z 
 #------------------------------------------
 material:file=vampire.mat
-material:unit-cell-file = "vampire2.UCF"
+material:unit-cell-file = "vampire3.UCF"
 #------------------------------------------ 
 # System Dimensions: 
 #------------------------------------------ 
-#dimensions:unit-cell-size-x = 7.317462401558906
-#dimensions:unit-cell-size-y = 7.317462401558906
-#dimensions:unit-cell-size-z = 6.8138880496609975
+#dimensions:unit-cell-size-x = 7.900000000525559
+#dimensions:unit-cell-size-y = 7.900000000525559
+#dimensions:unit-cell-size-z = 6.2
 
-dimensions:system-size-x = 7.3 !nm
-dimensions:system-size-y = 7.3 !nm
-dimensions:system-size-z = 6.8 !nm
+dimensions:system-size-x = 7 !nm 
+dimensions:system-size-y = 7 !nm 
+dimensions:system-size-z = 7 !nm 
 #------------------------------------------ 
 # Simulation attributes: 
 #------------------------------------------ 
 #sim:temperature=300 
 sim:minimum-temperature=0 
 sim:maximum-temperature=300
-sim:temperature-increment=25
-sim:time-steps-increment=1 
-sim:equilibration-time-steps=3500 
-sim:loop-time-steps=4000 
+sim:temperature-increment=15
+#sim:time-steps-increment=1 
+sim:equilibration-time-steps=5000
+sim:loop-time-steps=5000
 #------------------------------------------ 
 # Program and integrator details 
 #------------------------------------------ 
@@ -41,6 +41,5 @@ screen:temperature
 screen:magnetisation-length
 output:temperature
 output:material-magnetisation
-#output:magnetisation-length 
 config:atoms
-
+#output:magnetisation-length 

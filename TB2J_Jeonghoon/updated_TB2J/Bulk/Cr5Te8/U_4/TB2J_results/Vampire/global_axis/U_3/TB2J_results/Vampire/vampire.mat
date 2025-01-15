@@ -1,0 +1,57 @@
+material:num-materials = 3
+#---------------------------------------------------
+# Material 1 
+#---------------------------------------------------
+material[1]:material-name=Cr1
+material[1]:damping-constant=1.0
+material[1]:atomic-spin-moment=3.83 !muB
+material[1]:uniaxial-anisotropy-constant=0.3 !meV
+material[1]:material-element=Cr
+material[1]:initial-spin-direction = 0,0,1
+material[1]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
+#---------------------------------------------------
+#---------------------------------------------------
+# Material 2 
+#---------------------------------------------------
+material[2]:material-name=Cr2
+material[2]:damping-constant=1.0
+material[2]:atomic-spin-moment=3.60 !muB
+material[2]:uniaxial-anisotropy-constant= 0.3 !meV
+material[2]:material-element=Fe
+material[2]:initial-spin-direction = 0,0,1
+material[2]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
+#---------------------------------------------------
+# Material 3
+#---------------------------------------------------
+material[3]:material-name=Cr3
+material[3]:damping-constant=1.0
+material[3]:atomic-spin-moment=3.65 !muB
+material[3]:uniaxial-anisotropy-constant= 0.3 !meV
+material[3]:material-element=Cr
+material[3]:initial-spin-direction = 0,0,1
+material[3]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
+#---------------------------------------------------
+#---------------------------------------------------
+#---------------------------------------------------
+# Material 3 
+#---------------------------------------------------
+#material[3]:material-name=Cr
+#material[3]:damping-constant=1.0
+#material[3]:atomic-spin-moment=3.6007392773882185 !muB
+#material[3]:uniaxial-anisotropy-constant=0.0
+#material[3]:material-element=Ni
+#material[3]:initial-spin-direction = 2.7850499203970525e-05,-0.009766251541358408,0.9999523086403574
+#material[3]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
+#---------------------------------------------------
+#---------------------------------------------------
+# Material 4 
+#---------------------------------------------------
+#material[4]:material-name=Cr
+#material[4]:damping-constant=1.0
+#material[4]:atomic-spin-moment=3.600656154665071 !muB
+#material[4]:uniaxial-anisotropy-constant=0.0
+#material[4]:material-element=Cr
+#material[4]:initial-spin-direction = 0.008481296108643377,0.004866007863667761,0.9999521936491705
+#material[4]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
+#---------------------------------------------------
+# Interactions

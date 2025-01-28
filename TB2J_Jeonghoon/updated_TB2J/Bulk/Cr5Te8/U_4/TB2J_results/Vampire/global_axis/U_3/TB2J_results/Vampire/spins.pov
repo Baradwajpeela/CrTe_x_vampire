@@ -12,9 +12,9 @@
 #declare LY = 0;
 #declare LZ = 0;
 // camera location
-#declare cam_theta  = 56.7645; // angle from z in degrees
+#declare cam_theta  = 56.3384; // angle from z in degrees
 #declare cam_phi    = 45; // angle from x in degrees
-#declare cam_radius = 674.569; // distance from origin
+#declare cam_radius = 712.52; // distance from origin
 #declare CX = cam_radius * cos(cam_phi*pi/180.0) * sin(cam_theta*pi/180.0);
 #declare CY = cam_radius * sin(cam_phi*pi/180.0) * sin(cam_theta*pi/180.0);
 #declare CZ = cam_radius * cos(cam_theta*pi/180.0);
@@ -108,7 +108,7 @@ union{
 #end
 
 //-----------------------------------------------------------------------------------
-// Material 2	Name: Cr2	Element: Fe
+// Material 2	Name: Cr2	Element: Cr
 //-----------------------------------------------------------------------------------
 #if(global_spin_scale) #declare sscale2 = sscale;
 #else #declare sscale2 = 2; #end

@@ -15,9 +15,9 @@ material:unit-cell-file = "vampire_test.UCF"
 #dimensions:unit-cell-size-y = 7.86799999954964
 #dimensions:unit-cell-size-z = 12.34
 
-dimensions:system-size-x = 15.0 !nm 
-dimensions:system-size-y = 15.0 !nm 
-dimensions:system-size-z = 15.0 !nm 
+dimensions:system-size-x = 30.0 !nm 
+dimensions:system-size-y = 30.0 !nm 
+dimensions:system-size-z = 10.0 !nm 
 #------------------------------------------ 
 # Simulation attributes: 
 #------------------------------------------ 
@@ -26,8 +26,8 @@ sim:minimum-temperature=0
 sim:maximum-temperature=400
 sim:temperature-increment=20
 #sim:time-steps-increment=1 
-sim:equilibration-time-steps=10000
-sim:loop-time-steps=10000
+sim:equilibration-time-steps=3000
+sim:loop-time-steps=3000
 #------------------------------------------ 
 # Program and integrator details 
 #------------------------------------------ 
@@ -42,3 +42,10 @@ screen:magnetisation-length
 output:temperature
 output:material-magnetisation
 #output:magnetisation-length 
+config:atoms
+config:atoms-minimum-x = 0.0
+config:atoms-minimum-y = 0.0
+config:atoms-minimum-z = 0.0
+config:atoms-maximum-x = 0.1
+config:atoms-maximum-y = 0.1
+config:atoms-maximum-z = 0.1

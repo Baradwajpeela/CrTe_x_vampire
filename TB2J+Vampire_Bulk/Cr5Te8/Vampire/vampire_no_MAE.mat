@@ -8,8 +8,8 @@ material[1]:damping-constant=1.0
 material[1]:atomic-spin-moment=3.83 !muB
 material[1]:uniaxial-anisotropy-constant=0.0 !meV
 material[1]:material-element=Cr
-material[1]:initial-spin-direction = 0,0,1
-material[1]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
+#material[1]:initial-spin-direction = 0,0,1
+#material[1]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
 #---------------------------------------------------
 #---------------------------------------------------
 # Material 2 
@@ -20,8 +20,8 @@ material[2]: unit-cell-category = 2
 material[2]:atomic-spin-moment=3.60 !muB
 material[2]:uniaxial-anisotropy-constant= 0.0 !meV
 material[2]:material-element=Cr
-material[2]:initial-spin-direction = 0,0,1
-material[2]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
+#material[2]:initial-spin-direction = 0,0,1
+#material[2]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
 #---------------------------------------------------
 # Material 3
 #---------------------------------------------------
@@ -31,6 +31,6 @@ material[3]: unit-cell-category = 3
 material[3]:atomic-spin-moment=3.65 !muB
 material[3]:uniaxial-anisotropy-constant= 0.0 !meV
 material[3]:material-element=Cr
-material[3]:initial-spin-direction = 0,0,1
-material[3]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
+#material[3]:initial-spin-direction = 0,0,1
+#material[3]:uniaxial-anisotropy-direction = 0.0 , 0.0, 1.0
 #---------------------------------------------------

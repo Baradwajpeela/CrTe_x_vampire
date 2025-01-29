@@ -12,9 +12,9 @@
 #declare LY = 0;
 #declare LZ = 0;
 // camera location
-#declare cam_theta  = 36.5008; // angle from z in degrees
+#declare cam_theta  = 25.1819; // angle from z in degrees
 #declare cam_phi    = 45; // angle from x in degrees
-#declare cam_radius = 107.221; // distance from origin
+#declare cam_radius = 240.733; // distance from origin
 #declare CX = cam_radius * cos(cam_phi*pi/180.0) * sin(cam_theta*pi/180.0);
 #declare CY = cam_radius * sin(cam_phi*pi/180.0) * sin(cam_theta*pi/180.0);
 #declare CZ = cam_radius * cos(cam_theta*pi/180.0);
@@ -76,7 +76,7 @@ light_source { <2*CX, 2*CY, 2*CZ> color White} // lights
 //#include "util/povray_colours/color_wheel.inc"
 
 //-----------------------------------------------------------------------------------
-// Material 1	Name: Cr1	Element: Cr
+// Material 1	Name: Cr	Element: Cr
 //-----------------------------------------------------------------------------------
 #if(global_spin_scale) #declare sscale1 = sscale;
 #else #declare sscale1 = 2; #end
@@ -108,7 +108,7 @@ union{
 #end
 
 //-----------------------------------------------------------------------------------
-// Material 2	Name: Cr2	Element: Cr
+// Material 2	Name: Cr-intercalated	Element: Cr
 //-----------------------------------------------------------------------------------
 #if(global_spin_scale) #declare sscale2 = sscale;
 #else #declare sscale2 = 2; #end
@@ -136,38 +136,6 @@ union{
    #end
    #if(spincolors2) texture { spinrgb(sx,sy,sz,cr,cg,cb) finish {reflection ref diffuse dif ambient amb } }
    #else texture { spincolor2 finish {reflection ref diffuse dif ambient amb }} #end
-}
-#end
-
-//-----------------------------------------------------------------------------------
-// Material 3	Name: Cr3	Element: Cr
-//-----------------------------------------------------------------------------------
-#if(global_spin_scale) #declare sscale3 = sscale;
-#else #declare sscale3 = 2; #end
-#if(global_radius_scale) #declare rscale3 = rscale;
-#else #declare rscale3 = 1.2; #end
-#if(global_cube_scale) #declare cscale3 = cscale;
-#else #declare cscale3 = 3.54; #end
-#if(global_cones)   #declare cones3 = global_cones;   #else #declare cones3 = false; #end
-#if(global_cubes)   #declare arrows3 = global_arrows;  #else #declare arrows3 = true;  #end
-#if(global_spheres) #declare spheres3 = global_spheres; #else #declare spheres3 = true;  #end
-#if(global_cubes)   #declare cubes3 = global_cubes;   #else #declare cubes3 = false; #end
-#declare spincolors3 = true; // enable colours defined in vdc
-#declare spincolor3  = pigment {color rgb < 0.1 0.1 0.1 >};
-//-------------------------------------
-#macro spinm3(cx,cy,cz,sx,sy,sz, cr,cg,cb)
-union{
-   #if(spheres3) sphere {<cx,cy,cz>,0.5*rscale3} #end
-   #if(cubes3) box {<cx-cscale3*0.5,cy-cscale3*0.5,cz-cscale3*0.5>,<cx+cscale3*0.5,cy+cscale3*0.5,cz+cscale3*0.5>} #end
-   #if(cones3) cone {<cx+0.5*sx*sscale3,cy+0.5*sy*sscale3,cz+0.5*sz*sscale3>,0.0 <cx-0.5*sx*sscale3,cy-0.5*sy*sscale3,cz-0.5*sz*sscale3>,sscale3*0.5} #end
-   #if(arrows3)
-      cylinder {<cx+sx*0.5*sscale3,    cy+sy*0.5*sscale3,    cz+sz*0.5*sscale3>
-                <cx-sx*0.5*sscale3,    cy-sy*0.5*sscale3,    cz-sz*0.5*sscale3>,sscale3*0.12}
-      cone     {<cx+sx*0.5*1.6*sscale3,cy+sy*0.5*1.6*sscale3,cz+sz*0.5*1.6*sscale3>,sscale3*0.0
-                <cx+sx*0.5*sscale3,    cy+sy*0.5*sscale3,    cz+sz*0.5*sscale3    >,sscale3*0.2}
-   #end
-   #if(spincolors3) texture { spinrgb(sx,sy,sz,cr,cg,cb) finish {reflection ref diffuse dif ambient amb } }
-   #else texture { spincolor3 finish {reflection ref diffuse dif ambient amb }} #end
 }
 #end
 

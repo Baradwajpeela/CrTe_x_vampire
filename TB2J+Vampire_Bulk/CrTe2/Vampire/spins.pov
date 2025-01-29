@@ -12,9 +12,9 @@
 #declare LY = 0;
 #declare LZ = 0;
 // camera location
-#declare cam_theta  = 54.48; // angle from z in degrees
+#declare cam_theta  = 23.6433; // angle from z in degrees
 #declare cam_phi    = 45; // angle from x in degrees
-#declare cam_radius = 510.035; // distance from origin
+#declare cam_radius = 1710.53; // distance from origin
 #declare CX = cam_radius * cos(cam_phi*pi/180.0) * sin(cam_theta*pi/180.0);
 #declare CY = cam_radius * sin(cam_phi*pi/180.0) * sin(cam_theta*pi/180.0);
 #declare CZ = cam_radius * cos(cam_theta*pi/180.0);

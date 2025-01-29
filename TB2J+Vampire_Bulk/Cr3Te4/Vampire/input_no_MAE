@@ -6,8 +6,8 @@ create:periodic-boundaries-x
 create:periodic-boundaries-y 
 create:periodic-boundaries-z 
 #------------------------------------------
-material:file=vampire_MAE.mat
-material:unit-cell-file = "vampire.UCF"
+material:file=vampire_no_MAE.mat
+material:unit-cell-file = "vampire_test.UCF"
 #------------------------------------------ 
 # System Dimensions: 
 #------------------------------------------ 
@@ -15,19 +15,19 @@ material:unit-cell-file = "vampire.UCF"
 #dimensions:unit-cell-size-y = 7.86799999954964
 #dimensions:unit-cell-size-z = 12.34
 
-dimensions:system-size-x = 7.0 !nm 
-dimensions:system-size-y = 7.0 !nm 
-dimensions:system-size-z = 7.0 !nm 
+dimensions:system-size-x = 15.0 !nm 
+dimensions:system-size-y = 15.0 !nm 
+dimensions:system-size-z = 15.0 !nm 
 #------------------------------------------ 
 # Simulation attributes: 
 #------------------------------------------ 
 #sim:temperature=300 
 sim:minimum-temperature=0 
-sim:maximum-temperature=300
-sim:temperature-increment=10
+sim:maximum-temperature=400
+sim:temperature-increment=20
 #sim:time-steps-increment=1 
-sim:equilibration-time-steps=5000
-sim:loop-time-steps=5000
+sim:equilibration-time-steps=10000
+sim:loop-time-steps=10000
 #------------------------------------------ 
 # Program and integrator details 
 #------------------------------------------ 

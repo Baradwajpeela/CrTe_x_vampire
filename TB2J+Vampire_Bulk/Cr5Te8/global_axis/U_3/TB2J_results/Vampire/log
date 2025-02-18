@@ -1,0 +1,68 @@
+14-01-2025 [10:42:27] Logfile opened
+14-01-2025 [10:42:27] Executable : vampire-serial
+14-01-2025 [10:42:27] Host name  : node200:
+14-01-2025 [10:42:27] Directory  : /home/jhhong/example/CrTe/CrTe_project/Bulk/Cr5Te8/global_axis/U_3/wannier/result/TB2J_results/Vampire
+14-01-2025 [10:42:27] Process ID : 80857
+14-01-2025 [10:42:27] Version    : 5.0.1
+14-01-2025 [10:42:27] Githash    : c0cb858d7dcdcdfc6474938324e363599e728b30
+14-01-2025 [10:42:27] Opening main input file "input".
+14-01-2025 [10:42:27] Parsing system parameters from main input file.
+14-01-2025 [10:42:27] Opening material file "vampire.mat".
+14-01-2025 [10:42:27] Parsing material file for parameters.
+14-01-2025 [10:42:27] Reading in unit cell data from disk...
+14-01-2025 [10:42:27] Reading data completed. Processing unit cell data...
+14-01-2025 [10:42:27] 	Processing data for 5 unit cell atoms...
+14-01-2025 [10:42:27] 	Processing unit cell atoms completed
+14-01-2025 [10:42:27] 	Processing data from 86 unit cell interactions...
+14-01-2025 [10:42:27] 	Processing unit cell interactions completed
+14-01-2025 [10:42:27] 	Verifying unit cell exchange interactions...
+14-01-2025 [10:42:27] Verifying unit cell exchange interactions completed
+14-01-2025 [10:42:27] 	Number of atoms read-in: 5
+14-01-2025 [10:42:27] 	Number of interactions read-in: 86
+14-01-2025 [10:42:27] 	Exchange type: tensorial
+14-01-2025 [10:42:27] 	Calculated interaction range: 1 Unit Cells
+14-01-2025 [10:42:27] Calculating alloy properties of system
+14-01-2025 [10:42:27] Determining atomic composition
+14-01-2025 [10:42:27] Material 1 Cr makes up 20% of all atoms.
+14-01-2025 [10:42:27] Material 2 Cr makes up 20% of all atoms.
+14-01-2025 [10:42:27] Material 3 Cr makes up 20% of all atoms.
+14-01-2025 [10:42:27] Material 4 Cr makes up 20% of all atoms.
+14-01-2025 [10:42:27] Material 5 Cr makes up 20% of all atoms.
+14-01-2025 [10:42:27] Memory required for neighbourlist calculation:0.01764 MB
+14-01-2025 [10:42:27] Allocating memory for supercell array in neighbourlist calculation...
+14-01-2025 [10:42:27] 	Done
+14-01-2025 [10:42:27] Populating supercell array for neighbourlist calculation...
+14-01-2025 [10:42:27] 	Done
+14-01-2025 [10:42:27] Memory required for neighbour list:0.303408 MB
+14-01-2025 [10:42:27] Generating neighbour list...
+14-01-2025 [10:42:27] 	Done
+14-01-2025 [10:42:27] Deallocating supercell array for neighbour list calculation
+14-01-2025 [10:42:27] 	Done
+14-01-2025 [10:42:27] Copying system data to optimised data structures.
+14-01-2025 [10:42:27] Number of atoms generated on rank 0: 2205
+14-01-2025 [10:42:27] Memory required for copying to performance array on rank 0: 0.33516 MB RAM
+14-01-2025 [10:42:27] Identifying surface atoms using global threshold value of 0
+14-01-2025 [10:42:27] 0 surface atoms found.
+14-01-2025 [10:42:27] Memory required for creation of 1D neighbour list on rank 0: 0.03528 MB RAM
+14-01-2025 [10:42:27] Initialising data structures for exchange calculation.
+14-01-2025 [10:42:27] Unrolled exchange template requires 0.006192MB RAM
+14-01-2025 [10:42:27] Macrocell size = 10 Angstroms
+14-01-2025 [10:42:27] Macrocells in x,y,z: 6	6	6
+14-01-2025 [10:42:27] Total number of macrocells: 216
+14-01-2025 [10:42:27] Memory required for macrocell arrays: 0.01728 MB
+14-01-2025 [10:42:27] Number of local macrocells on rank 0: 205
+14-01-2025 [10:42:27] Number of atoms generated: 2205
+14-01-2025 [10:42:27] Initialising data structures for anisotropy calculation.
+14-01-2025 [10:42:27] Initialising statistics module
+14-01-2025 [10:42:27] Starting Simulation with Program Curie-Temperature...
+14-01-2025 [10:42:34] Initialising configuration output... done!
+14-01-2025 [10:42:34] Total coordinate data filesize: 0.10584 MB
+14-01-2025 [10:42:34] Total spin data filesize (per snapshot): 0.05292 MB
+14-01-2025 [10:42:34] Outputting atomic coordinate file to disk 0.031643 GB/s in 0.00334481 s
+14-01-2025 [10:42:34] Outputting configuration file 00000000 to disk 0.0212361 GB/s in 0.00249199 s [ 0.00256973 s]
+14-01-2025 [10:44:20] Simulation run time [s]: 112.081
+14-01-2025 [10:44:20] Monte Carlo statistics:
+14-01-2025 [10:44:20] 	Total moves: 3.7485e+08
+14-01-2025 [10:44:20] 	40.4417% Accepted
+14-01-2025 [10:44:20] 	59.5583% Rejected
+14-01-2025 [10:44:20] Simulation ended gracefully.

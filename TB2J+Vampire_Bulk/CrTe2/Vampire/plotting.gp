@@ -19,11 +19,11 @@ m2(x) = x < Tc2 ? (1 - (x / Tc2))**beta2 : 0.0
 # Fit m1(x) to "output_MAE"
 fit m1(x) "output_MAE" using 1:5 via Tc1, beta1
 
-# Fit m2(x) to "output_no_MAE"
-fit m2(x) "output_no_MAE" using 1:5 via Tc2, beta2
+# Fit m2(x) to "output_no_soc"
+fit m2(x) "output_no_soc" using 1:5 via Tc2, beta2
 
 # Now plot the data and fits
 plot "output_MAE" using 1:5 with points pt 5 title "MAE = -1.72 meV", \
-     m1(x) with lines lw 2 lc rgb "blue" title sprintf("Fit MAE: T_c=%.2f, {/Symbol b}=%.2f", Tc1, beta1), \
-     "output_no_MAE" using 1:5 with points pt 5 title "MAE = 0 meV", \
-     m2(x) with lines lw 2 lc rgb "red" title sprintf("Fit No MAE: T_c=%.2f, {/Symbol b}=%.2f", Tc2, beta2)
+     m1(x) with lines lw 2 lc rgb "blue" title sprintf("Fit w SOC: T_c=%.2f, {/Symbol b}=%.2f", Tc1, beta1), \
+     "output_no_soc" using 1:5 with points pt 5 title "MAE = 0 meV", \
+     m2(x) with lines lw 2 lc rgb "red" title sprintf("Fit No SOC: T_c=%.2f, {/Symbol b}=%.2f", Tc2, beta2)

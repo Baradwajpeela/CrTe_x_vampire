@@ -1,0 +1,13 @@
+Cr1|orb_1  1 
+Cr1|orb_2  2 
+Cr1|orb_3  3 
+Cr1|orb_4  4 
+Cr1|orb_5  5 
+Te1|orb_1  6 
+Te1|orb_2  7 
+Te1|orb_3  8 
+Te1|orb_4  9 
+Te2|orb_1  10 
+Te2|orb_2  11 
+Te2|orb_3  12 
+Te2|orb_4  13 
